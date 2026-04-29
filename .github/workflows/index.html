@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>La Derivada</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+    }
+
+    #inicio { background: #ecf0f1; }
+    #definicion { background: #bdc3c7; }
+    #reglas { background: #95a5a6; }
+    #ejemplos { background: #7f8c8d; color: white; }
+
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 21px;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>La Derivada</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#definicion">Definición</a>
+    <a href="#reglas">Reglas</a>
+    <a href="#ejemplos">Ejemplos</a>
+  </nav>
+</header>
+
+<section id="inicio">
+  <div class="container">
+    <h2>¿Qué es la derivada?</h2>
+    <p>
+      La derivada es un concepto fundamental del cálculo que mide cómo cambia una función respecto a una variable.
+      Es esencial en matemáticas, física, economía e ingeniería.
+    </p>
+  </div>
+</section>
+
+<section id="definicion">
+  <div class="container">
+    <h2>Definición Formal</h2>
+    <p>
+      La derivada de una función f(x) se define como:
+    </p>
+    <p style="text-align:center; font-size: 20px;">
+      f'(x) = lim (h → 0) [f(x + h) - f(x)] / h
+    </p>
+    <p>
+      Esta expresión representa la pendiente de la recta tangente a la curva en un punto.
+    </p>
+  </div>
+</section>
+
+<section id="reglas">
+  <div class="container">
+    <h2>Reglas de Derivación</h2>
+    <ul>
+      <li>Regla de la potencia: d/dx (xⁿ) = n·xⁿ⁻¹</li>
+      <li>Regla del producto: (fg)' = f'g + fg'</li>
+      <li>Regla del cociente: (f/g)' = (f'g - fg') / g²</li>
+      <li>Regla de la cadena: (f(g(x)))' = f'(g(x))·g'(x)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ejemplos">
+  <div class="container">
+    <h2>Ejemplos</h2>
+    <p><strong>Ejemplo 1:</strong> f(x) = x² → f'(x) = 2x</p>
+    <p><strong>Ejemplo 2:</strong> f(x) = 3x³ → f'(x) = 9x²</p>
+    <p><strong>Ejemplo 3:</strong> f(x) = sen(x) → f'(x) = cos(x)</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - Página educativa sobre la derivada</p>
+</footer>
+
+</body>
+</html>
